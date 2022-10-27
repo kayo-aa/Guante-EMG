@@ -1,0 +1,16 @@
+.data--ls, .data--esp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 32px;
+}
+
+.data--ls__total, .data--esp__total{
+  height: 100%;
+  width: calc(40% - 8px);
+}
+
+.data--ls__fingers, .data--esp__fingers{
+  height: 100%;
+  width: calc(60% - 8px);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/desktop.css" media="(min-width: 900px)">
+  <link rel="stylesheet" href="css/tablet.css" media="screen and (max-width: 899.5px) and (min-width:576px)">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width:576px) and (min-width:0px)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+  <title>Prueba</title>
+</head>
+<body>
+  <section class="titles">
+    <h1>Guante electromiográfico</h1>
+    <h2>Mediciones</h2>
+  </section>
+  <section class="data">
+    <div class="data--ls">
+      <div class="data--ls__fingers">
+          <canvas id="ls--fingers" height=""></canvas>
+      </div>
+      <div class="data--ls__total">
+          <canvas id="ls--total"></canvas>
+      </div>
+    </div>
+    <div class="data--esp">
+      <div class="data--esp__fingers">
+        <canvas id="esp--fingers"></canvas>
+      </div>
+      <div class="data--esp__total">
+        <canvas id="esp--total"></canvas>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- <script type="module" src="js/data.service.js"></script> -->
+  <script type="module" src="js/bar.js"></script>
+  <script type="module" src="js/doughnut.js"></script>
+  <script type="module" src="js/index.js"></script>
+  <script type="module" src="js/esp.js"></script>
+  <!-- <script type="module" src="js/localStorage.js"></script> -->
+
+</body>
+</html>

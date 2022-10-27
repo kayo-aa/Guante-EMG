@@ -88,7 +88,7 @@ void ConnectWiFi_AP(bool useStaticIP = false)
 void setup() {
    
    
-   Serial.begin(115200);
+   Serial.begin(57600);
    
    ConnectWiFi_STA();
  
