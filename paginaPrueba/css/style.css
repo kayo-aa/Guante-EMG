@@ -1,0 +1,27 @@
+body{
+  background-color: #23242B;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  padding: 32px 32px 0;
+}
+
+.titles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titles h1, .titles h2{
+  padding: 0 0 16px;
+  margin: 0;
+}
+
+.data--ls, .data--esp{
+  height: calc(24.8vw);
+}
+
+canvas {
+  background-color: #2C2D34;
+  /* la documentacion de chart.js recomienda no manipular width y height de la etiqueta canvas. Sólo de sus contenedores*/
+}
+
